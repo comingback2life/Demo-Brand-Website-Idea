@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="app.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
+    </style>
+
+    <title>Demo Brand</title>
+
+  </head>
+  <body>
+    <section class="fluid-container">
+      <nav
+        id="topNav"
+        class="navbar navbar-expand-sm navbar-light nav-md-collapse"
+      >
+        <span class="navbar-brand mb-0 h1">Demo Brand</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navItems"
+          aria-controls="#navItems"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-light" id="navItems">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="http://">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://">Invite me !</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div class="row mt-3 col-xs-1 justify-content-center">
+        <div class="col-10 col-md-6 ml-1 text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="120"
+            height="200"
+            fill="currentColor"
+            class="bi bi-wallet2"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
+            />
+          </svg>
+          <!--image-->
+        </div>
+
+        <div class="col-md-6 col-10 text-center">
+          <div class="row">
+            <h1 class="display-1">Brand Name</h1>
+            <p class="lead">
+              lorem ipsum <br />lorem ipsum<br />lorem ipsum
+              <br />Lorem Ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="container-fluid">
+        <h2 class="display-6 text-center mt-2 mb-2">Features </h2>
+        <p class="text-center mt-2">Take a small glance at all of our features, just click on of the feature to learn more about it.</p>
+        <div class="row row-xs-10">
+          <div class="col-md-6 mb-2">
+            <section class="row">
+            <div id ="accordion">
+            <div class="card-header m-0 mr-3" id="splitBills">
+              <h5 class="mb-0">
+                <button id="accordionButton" class="btn btn-link w-100" data-bs-toggle="collapse" data-bs-target="#iwantSplitBills"><p class="text-center"><img class="img-fluid" height="10" width="50" src="images/payment-icon.png">Feature 1 </p>
+                </button>
+              </h5>
+            </div>
+            <div id="iwantSplitBills" class="collapse hide" data-parent="#accordion">
+              <div class="card-body p-0 mt-2">
+                <ul class="px-0"> 
+                  <li class="list-group-item text-align-left">Lorem Ipsum</li>
+                  <li class="list-group-item justify-content-left">Lorem Ipsum</li>
+                  <li class="list-group-item justify-content-left">Lorem Ipsum <span class="badge badge-pill badge-primary bg-primary">PRO</span></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-md-6 mb-2">
+          <section class="row">
+          <div id ="accordion">
+          <div class="card-header m-0 mr-3" id="splitBills">
+            <h5 class="mb-0">
+              <button id="accordionButton" class="btn btn-link w-100" data-bs-toggle="collapse" data-bs-target="#weLoveGoingOut"><p class="text-center"><img class="img-fluid" height="10" width="50" src="images/friends.png"> Feature2</p>
+              </button>
+            </h5>
+          </div>
+          <div id="weLoveGoingOut" class="collapse hide" data-parent="#accordion">
+            <div class="card-body p-0 mt-2">
+              <ul class="px-0"> 
+                <li class="list-group-item text-align-left">Lorem Ipsum</li>
+                <li class="list-group-item justify-content-left">Lorem Ipsum</li>
+                <li class="list-group-item justify-content-left">Lorem Ipsum <span class="badge badge-pill badge-primary bg-primary">PRO</span></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+      <span class="row"></span>
+      <div class="col-md-6 mb-2">
+        <section class="row">
+        <div id ="accordion">
+        <div class="card-header m-0 mr-3 mt-2" id="splitBills">
+          <h5 class="mb-0">
+            <button id="accordionButton" class="btn btn-link w-100" data-bs-toggle="collapse" data-bs-target="#neverPaidonTime"><p class="text-center"><img class="img-fluid" height="10" width="50" src="images/dizzy.png">Feature 3</p>
+            </button>
+          </h5>
+        </div>
+        <div id="neverPaidonTime" class="collapse hide" data-parent="#accordion">
+          <div class="card-body p-0 mt-2">
+            <ul class="px-0"> 
+              <li class="list-group-item text-align-left">Lorem Ipsum</li>
+              <li class="list-group-item justify-content-left">Lorem Ipsum <span class="badge badge-pill badge-primary bg-primary">PRO</span></li>
+              <li class="list-group-item justify-content-left">Lorem Ipsum <span class="badge badge-pill badge-primary bg-primary">PRO</span></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </section>
+    </div>
+    <div class="col-md-6 mb-2">
+      <section class="row">
+      <div id ="accordion">
+      <div class="card-header m-0 mr-3 mt-2" id="splitBills">
+        <h5 class="mb-0">
+          <button id="accordionButton" class="btn btn-link w-100" data-bs-toggle="collapse" data-bs-target="#goFullPro"><p class="text-center"><img class="img-fluid" height="10" width="50" src="images/king.png"> I want to go full <span class="badge badge-pill badge-primary bg-primary">PRO</span></p>
+          </button>
+        </h5>
+      </div>
+      <div id="goFullPro" class="collapse hide" data-parent="#accordion">
+        <div class="card-body p-0 mt-2">
+          <ul class="px-0"> 
+            <li class="list-group-item text-align-left">$5.99 per month</li>
+            <li class="list-group-item justify-content-left">Lorem Ipsum</li>
+            <li class="list-group-item justify-content-left">Lorem Ipsum</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </section>
+  </div>
+          </div> <!--accordinon col close-->
+          <div class="row mt-3 col-xs-1 justify-content-center">
+            <div class="col-10 col-md-6 ml-1 text-center">
+             <img src="images/mobilephone.png" height="300px" width="300px">
+              <!--image-->
+            </div>
+            <div class="col-md-6 text-center content">
+              <div class="row justify-content-center">
+                <div class="align-middle">
+                <h6 class="display-6 text-center d-lg-block d-none">Can I get an invite?</h6>
+                <h6 class="display-6 text-center d-lg-none d-xs-none">I scrolled for an invite.</h6>
+                <p class="lead d-lg-block d-none">
+                  Yes!  but just give us your email.
+                </p>
+                <hp class="lead text-center d-lg-none d-xs-none">Wohoo ! Give us your email so that we can give you the invite</h6>
+              </div>
+              <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                  <label for="inputPassword2" class="sr-only"> <p class="lead">
+                    No Spams, we promise 
+                  </p></label>
+                  <input type="email" class="form-control" id="inputPassword2" placeholder="Email">
+                </div>
+                <button type="submit" class="btn mb-2 d-inline customButton"><img class="img-fluid" height="10" width="50" src="images/effort.png">Send me an invite</button>
+              </form>
+            </div>
+        </div>
+      </section>
+      <div class="attribution">
+        Coded by <a href="www.github.com/comingback2life">Samip Pokharel</a>.
+      </div>
+    </section>
+    
+  </body>
+</html>

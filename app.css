@@ -1,0 +1,100 @@
+body {
+	background-color: #ee7879;
+	color: white;
+	font-family: "Noto Serif", serif;
+}
+#topNav span,
+#topNav a {
+	color: white;
+	font-weight: 100;
+	font-family: "Nunito", sans-serif;
+}
+#topNav span {
+	padding-left: 10px;
+}
+.content {
+	margin-top: 50px;
+}
+.nav-link {
+	text-transform: uppercase;
+}
+
+#topNav a:hover {
+	color: #ffd166;
+}
+.logo svg {
+	margin-left: 10px;
+	text-align: none;
+}
+.display-6 {
+	font-family: "Nunito", "sans-serif";
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+input[type="email"]::placeholder {
+	text-align: center;
+}
+.customButton {
+	text-transform: uppercase;
+	border-radius: 11px;
+	background-color: white;
+	border: 1px solid black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-family: "Nunito", "sans-serif";
+}
+.btn-primary:hover {
+	color: red;
+}
+#accordionButton {
+	padding: 0px;
+	color: black;
+	text-decoration: none;
+	letter-spacing: 0.21em;
+	text-transform: uppercase;
+	max-height: fit-content;
+}
+.card-header {
+	background-color: white;
+	border: 2px solid black;
+}
+.list-group-item {
+	text-transform: uppercase;
+	font-family: "Nunito", "sans-serif";
+}
+p {
+	font-family: "Nunito", "sans-serif";
+}
+
+.card-body {
+	color: black;
+}
+.card-body p,
+a {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-family: "Nunito", "sans-serif";
+}
+.lead {
+	font-size: 15px;
+	font-family: "Nunito", "sans-serif";
+	line-height: 2.1em;
+	text-transform: capitalize;
+}
+.attribution {
+	font-size: 11px;
+	text-transform: uppercase;
+	word-spacing: 2;
+	text-align: center;
+}
+.attribution a {
+	color: white;
+}
+.attribution a:hover {
+	color: #ffd166;
+}
